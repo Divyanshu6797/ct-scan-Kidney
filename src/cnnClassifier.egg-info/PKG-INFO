@@ -1,3 +1,12 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.10
+Summary: A small python package for CNN app
+Home-page: https://github.com/Divyanshu6797/ct-scan-Kidney
+Author: Divyanshu6797
+Author-email: divyanshu@gmail.com
+Project-URL: Bug Tracker, https://github.com/Divyanshu6797/ct-scan-Kidney/issues
+
 # ct-scan-Kidney
 
 
