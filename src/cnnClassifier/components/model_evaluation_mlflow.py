@@ -36,6 +36,7 @@ class Evaluation:
             **dataflow_kwargs
         )
 
+
     @staticmethod
     def load_model(path: Path) -> tf.keras.Model:
         return tf.keras.models.load_model(path)
@@ -53,8 +54,9 @@ class Evaluation:
 
     
     def log_into_mlflow(self):
-        mlflow.set_registry_uri(self.config.mlflow_uri)
+        mlflow.set_registry_uri("https://dagshub.com/Divyanshu6797/ct-scan-Kidney.mlflow")
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
+        print(f"tracking_url_type_store :{tracking_url_type_store}")
         
         with mlflow.start_run():
             mlflow.log_params(self.config.all_params)
@@ -70,4 +72,5 @@ class Evaluation:
                 # https://mlflow.org/docs/latest/model-registry.html#api-workflow
                 mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
             else:
+                print("bruh not correct")
                 mlflow.keras.log_model(self.model, "model")

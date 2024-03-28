@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/kidney%20disease%20project%20tumor/ct-scan-Kidney/mlruns/0/61681e9f9a0e4c29ae6c653d3c70fcff/artifacts
+end_time: 1711631705195
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61681e9f9a0e4c29ae6c653d3c70fcff
+run_name: lyrical-deer-620
+run_uuid: 61681e9f9a0e4c29ae6c653d3c70fcff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711631692191
+status: 3
+tags: []
+user_id: divya

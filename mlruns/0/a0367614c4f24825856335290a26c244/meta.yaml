@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/kidney%20disease%20project%20tumor/ct-scan-Kidney/mlruns/0/a0367614c4f24825856335290a26c244/artifacts
+end_time: 1711631225715
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a0367614c4f24825856335290a26c244
+run_name: exultant-wolf-15
+run_uuid: a0367614c4f24825856335290a26c244
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711631211095
+status: 3
+tags: []
+user_id: divya
