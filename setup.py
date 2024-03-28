@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 
-__version__ = "0.0.23"
+__version__ = "0.0.26"
 
 REPO_NAME = "ct-scan-Kidney"
 AUTHOR_USER_NAME = "Divyanshu6797"
