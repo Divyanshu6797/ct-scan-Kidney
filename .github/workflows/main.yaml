@@ -43,22 +43,12 @@ jobs:
 
 
 
-        env:
-          AWS_DEFAULT_REGION:
-          AWS_REGION:
-          AWS_ACCESS_KEY_ID:
-          AWS_SECRET_ACCESS_KEY:
-          AWS_SESSION_TOKEN:
-        with:
-          aws-access-key-id: ${{ env.AWS_ACCESS_KEY_ }}
-          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY_ }}
-          aws-region: ap-south-1
         
-        # with:
-        #   aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        #   aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        #   aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
-        #   aws-region: ap-south-1
+        
+        with:
+          aws-access-key-id: AKIA47CRZ2EIVN5UVMUB
+          aws-secret-access-key: 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
+          aws-region: ap-south-1
 
       - name: Login to Amazon ECR
         id: login-ecr
