@@ -36,7 +36,6 @@ class Evaluation:
             **dataflow_kwargs
         )
 
-
     @staticmethod
     def load_model(path: Path) -> tf.keras.Model:
         return tf.keras.models.load_model(path)
@@ -54,7 +53,7 @@ class Evaluation:
 
     
     def log_into_mlflow(self):
-        mlflow.set_registry_uri("https://dagshub.com/Divyanshu6797/ct-scan-Kidney.mlflow")
+        mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
         with mlflow.start_run():

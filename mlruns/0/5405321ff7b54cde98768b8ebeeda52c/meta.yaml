@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/kidney%20disease%20project%20tumor/ct-scan-Kidney/mlruns/0/5405321ff7b54cde98768b8ebeeda52c/artifacts
+end_time: 1711578971714
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5405321ff7b54cde98768b8ebeeda52c
+run_name: enchanting-gull-884
+run_uuid: 5405321ff7b54cde98768b8ebeeda52c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711578955211
+status: 3
+tags: []
+user_id: divya

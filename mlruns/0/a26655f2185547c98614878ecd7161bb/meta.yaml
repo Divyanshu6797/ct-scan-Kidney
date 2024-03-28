@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/kidney%20disease%20project%20tumor/ct-scan-Kidney/mlruns/0/a26655f2185547c98614878ecd7161bb/artifacts
+end_time: 1711626576572
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a26655f2185547c98614878ecd7161bb
+run_name: masked-hound-991
+run_uuid: a26655f2185547c98614878ecd7161bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711626551481
+status: 3
+tags: []
+user_id: divya

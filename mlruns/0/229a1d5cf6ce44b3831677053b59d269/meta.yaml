@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/kidney%20disease%20project%20tumor/ct-scan-Kidney/mlruns/0/229a1d5cf6ce44b3831677053b59d269/artifacts
+end_time: 1711581505612
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 229a1d5cf6ce44b3831677053b59d269
+run_name: sincere-roo-145
+run_uuid: 229a1d5cf6ce44b3831677053b59d269
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711581490792
+status: 3
+tags: []
+user_id: divya

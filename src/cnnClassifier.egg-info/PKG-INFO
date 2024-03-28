@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: cnnClassifier
-Version: 0.0.15
+Version: 0.0.17
 Summary: A small python package for CNN app
 Home-page: https://github.com/Divyanshu6797/ct-scan-Kidney
 Author: Divyanshu6797

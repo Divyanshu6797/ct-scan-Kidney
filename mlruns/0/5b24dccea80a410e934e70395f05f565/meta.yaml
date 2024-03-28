@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/kidney%20disease%20project%20tumor/ct-scan-Kidney/mlruns/0/5b24dccea80a410e934e70395f05f565/artifacts
+end_time: 1711627692358
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b24dccea80a410e934e70395f05f565
+run_name: nimble-ray-640
+run_uuid: 5b24dccea80a410e934e70395f05f565
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711627679010
+status: 3
+tags: []
+user_id: divya
